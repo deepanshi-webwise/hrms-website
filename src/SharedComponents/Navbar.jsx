@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 
-const NavBar = () => {
+const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const bankingSolutions = [
@@ -115,5 +115,5 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
 
