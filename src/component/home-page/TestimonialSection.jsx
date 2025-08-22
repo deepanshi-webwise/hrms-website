@@ -25,7 +25,7 @@ const testimonials = [
   },
 ];
 
-// Custom Arrow Components
+
 const NextArrow = ({ onClick }) => (
   <button
     onClick={onClick}
@@ -70,12 +70,7 @@ const TestimonialSection = () => {
   {testimonials.map((t, index) => (
     <div key={index} className="px-6">
       <div className="bg-blue-50 p-6 rounded-xl flex flex-col md:flex-row items-center md:items-start relative overflow-hidden">
-        
-        {/* <img
-          src={images.Quotes}
-          alt="quote"
-          className="absolute top-6 left-6 w-16 h-16 opacity-20 z-0"
-        /> */}
+     
 
         <div className="flex-1 text-left relative z-10">
           <div className="text-yellow-400 text-xl mb-2">★★★★★</div>

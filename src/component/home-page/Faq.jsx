@@ -59,7 +59,7 @@ const Faq = () => {
 
               <div
                 className={`px-4 text-gray-600 text-base leading-relaxed transition-all duration-500 ease-in-out overflow-hidden ${
-                  openIndex === index ? "max-h-40 pb-4" : "max-h-0"
+                  openIndex === index ? "max-h-40 pb-4 pt-2" : "max-h-0"
                 }`}
               >
                 {faq.answer}

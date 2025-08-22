@@ -1,25 +1,4 @@
-// import React from 'react'
-
-// const PartnerSection = () => {
-//   return (
-//    <div className="w-full bg-gradient-to-t from-[#172e73] to-[#005ad2] [clip-path:polygon(0_8%,100%_0,100%_91%,0%_100%)]">
-//     <div className="relative service-section
-//   before:content-[''] before:absolute before:bg-white/20
-//   before:w-[300px] before:h-[40%]
-//   before:top-1/2 before:right-0
-//   before:translate-y-[-70%] before:[clip-path:polygon(100%_0,100%_100%,49%_47%)]
-//   after:content-[''] after:absolute after:bg-white/20">
-
-//   </div>
-
-//     </div>
-//   )
-// }
-
-// export default PartnerSection
-
-// src/components/PaymentsSection.jsx
-import { CreditCard, ShieldCheck, Wallet } from "lucide-react"; // example icons
+import { CreditCard, ShieldCheck, Wallet } from "lucide-react"; 
 
 export default function PartnerSection() {
   const services = [
@@ -70,7 +49,6 @@ export default function PartnerSection() {
   return (
     <section className="relative w-full bg-gradient-to-t from-[#172e73] to-[#005ad2] [clip-path:polygon(0_8%,100%_0,100%_91%,0%_100%)] py-16 px-6 text-center text-white">
       <div className="max-w-6xl mx-auto mt-10">
-        {/* Section Title */}
         <h2 className="text-2xl md:text-4xl font-bold mb-3">
           The Payments Partner You Need
         </h2>
@@ -78,7 +56,6 @@ export default function PartnerSection() {
           Our Wide Range Of Payment Products Cater To All
         </p>
 
-        {/* Service Cards */}
         <div className="grid gap-8 md:grid-cols-3 mb-20">
           {services.map((service, index) => (
             <div

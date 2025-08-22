@@ -5,7 +5,6 @@ const AboutHomePage = () => {
   return (
     <section className="w-full px-6 lg:px-40 bg-white">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        {/* Left Content */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6">
             A <span className="text-orange-500">Friend</span> Beyond Payments

@@ -14,7 +14,6 @@ const HeaderSection = () => {
         Your browser does not support the video tag.
       </video>
 
-      {/* <div className="absolute inset-0 bg-blue-900/70"></div> */}
 
       <div className="relative z-10 text-center max-w-4xl px-4">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
