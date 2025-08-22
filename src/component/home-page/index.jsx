@@ -1,1 +1,7 @@
 export {default as HeaderSection } from './HeaderSection'
+export {default as AboutHomePage} from './AboutHomePage'
+export {default as PartnerSection} from './PartnerSection'
+export {default as FeatureSection} from './FeatureSection'
+export {default as FrenzoVerifySection} from './FrenzoVerifySection'
+export {default as TestimonialSection} from './TestimonialSection'
+export {default as Faq} from './Faq'

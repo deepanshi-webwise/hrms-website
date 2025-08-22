@@ -25,7 +25,7 @@ const Navbar = () => {
 
    const Submenu = ({ title, items }) => (
     <div className="relative group">
-      <button className="inline-flex items-center py-2 px-4 text-gray-800 hover:text-blue-600">
+      <button className="inline-flex items-center py-2 px-4 text-gray-800 hover:text-blue-800">
         {title}
         <ChevronDown className="w-4 h-4 ml-1" />
       </button>
@@ -46,26 +46,26 @@ const Navbar = () => {
     </div>
   );
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="bg-white shadow-md sticky top-0 z-50 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo on Left */}
-          <a href="/" className="text-xl font-bold text-blue-600">
+          <a href="/" className="text-xl font-bold text-blue-800">
             FrenzoPay
           </a>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="/" className="py-2 px-4 hover:text-blue-600">
+            <a href="/" className="py-2 px-4 hover:text-blue-800">
               Home
             </a>
-            <a href="/about" className="py-2 px-4 hover:text-blue-600">
+            <a href="/about" className="py-2 px-4 hover:text-blue-800">
               About
             </a>
             <Submenu title="Banking Solutions" items={bankingSolutions} />
             <Submenu title="FrenzoVerify" items={frenzoVerify} />
            
-            <a href="/contact" className="py-2 px-4 hover:text-blue-600">
+            <a href="/contact" className="py-2 px-4 hover:text-blue-800">
               Contact
             </a>
           </div>

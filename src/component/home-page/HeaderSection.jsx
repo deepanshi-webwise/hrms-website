@@ -1,9 +1,8 @@
-
-
+import bgVideo from "../../asset/video/12528-239934661.mp4";
+import CountUp from "react-countup";
 const HeaderSection = () => {
   return (
-    <section className="relative w-full h-screen flex items-center justify-center text-white overflow-hidden">
-      {/* Background Video */}
+    <section className="relative w-full h-screen flex items-center justify-center text-white overflow-hidden p-4">
       <video
         autoPlay
         loop
@@ -11,14 +10,12 @@ const HeaderSection = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        {/* <source src="/background.mp4" type="video/mp4" /> */}
+        <source src={bgVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-blue-900/70"></div>
+      {/* <div className="absolute inset-0 bg-blue-900/70"></div> */}
 
-      {/* Content */}
       <div className="relative z-10 text-center max-w-4xl px-4">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Let FrenzoPay Solve Payments!
@@ -28,22 +25,27 @@ const HeaderSection = () => {
           and businesses, and aim to sustain and strengthen, develop and
           innovate digital payment services in India
         </p>
-        <button className="border border-white px-6 py-2 rounded-md hover:bg-white hover:text-blue-900 transition">
+        <button className="border border-white px-6 py-2 rounded-md hover:bg-white hover:text-blue-900 transition font-bold">
           Get In Touch
         </button>
 
-        {/* Stats */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12">
-          <div>
-            <h3 className="text-3xl font-bold">99%+</h3>
+          <div className="border-r">
+            <h3 className="text-3xl font-bold text-white">
+          <CountUp end={99} duration={3} suffix="%+" />
+        </h3>
             <p className="text-sm">Platform Uptime</p>
           </div>
-          <div>
-            <h3 className="text-3xl font-bold">95%+</h3>
+          <div className="border-r">
+          <h3 className="text-3xl font-bold text-white">
+          <CountUp end={95} duration={3} suffix="%+" />
+        </h3>
             <p className="text-sm">Transaction Success Rates</p>
           </div>
           <div>
-            <h3 className="text-3xl font-bold">500+</h3>
+           <h3 className="text-3xl font-bold text-white">
+          <CountUp end={500} duration={3} suffix="+" />
+        </h3>
             <p className="text-sm">Happy Customers</p>
           </div>
         </div>
