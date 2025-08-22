@@ -68,8 +68,8 @@ const Navbar = () => {
             </a>
           </div>
 
-          <div className="md:hidden">
-            <button onClick={() => setMobileOpen(!mobileOpen)}>
+          <div className="md:hidden ">
+            <button className="cursor-pointer" onClick={() => setMobileOpen(!mobileOpen)}>
               {mobileOpen ? (
                 <X className="w-6 h-6" />
               ) : (
@@ -81,7 +81,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`md:hidden ${
+        className={`cursor-pointer md:hidden ${
           mobileOpen ? "block" : "hidden"
         } px-2 pt-2 pb-3 space-y-1`}
       >
@@ -97,14 +97,14 @@ const Navbar = () => {
           {bankingSolutions.map((item) => (
             <a
               key={item}
-              href="#"
+              href="/banking-solutions"
               className="block py-2 pl-8 hover:bg-gray-100"
             >
               {item}
             </a>
           ))}
         </div>
-        <div className="py-2">
+        {/* <div className="py-2">
           <span className="block px-4 font-semibold">FrenzoVerify</span>
           {frenzoVerify.map((item) => (
             <a
@@ -115,7 +115,7 @@ const Navbar = () => {
               {item}
             </a>
           ))}
-        </div>
+        </div> */}
         <a href="/contact" className="block py-2 px-4 hover:bg-gray-100">
           Contact
         </a>

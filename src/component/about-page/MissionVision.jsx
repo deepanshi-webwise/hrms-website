@@ -18,7 +18,7 @@ const VisionMission = () => {
               {item.number}
             </span>
 
-            <div className={`flex-shrink-0 w-full md:w-1/2 flex ${ index % 2 !== 0 ? " justify-center md:justify-end" : " justify-center md:justify-start"} `}>
+            <div className={` hidden md:flex-shrink-0 w-full md:w-1/2 md:flex ${ index % 2 !== 0 ? " justify-center md:justify-end" : " justify-center md:justify-start"} `}>
               <img
                 src={item.img}
                 alt={item.title}

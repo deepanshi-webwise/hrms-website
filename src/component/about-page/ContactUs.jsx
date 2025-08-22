@@ -44,7 +44,7 @@ export default function ContactUs() {
         <div className="text-center">
           <button
             type="submit"
-            className="px-8 py-2 border-2 border-orange-500 text-orange-500 font-semibold rounded-md hover:bg-orange-500 hover:text-white transition"
+            className="px-8 py-2 cursor-pointer border-2 border-orange-500 text-orange-500 font-semibold rounded-md hover:bg-orange-500 hover:text-white transition"
           >
             Submit
           </button>
