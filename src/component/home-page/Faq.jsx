@@ -3,23 +3,23 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    question: "What services does FrenzoPay offer to merchants?",
+    question: "What services does Webwise offer to merchants?",
     answer:
-      "FrenzoPay provides a comprehensive suite of payment solutions, including payouts for businesses, money transfers, and Aadhaar-enabled payment services (AEPS), along with M-Atm, Bill Payments and Verification Services.",
+      "Webwise provides a comprehensive suite of payment solutions, including payouts for businesses, money transfers, and Aadhaar-enabled payment services (AEPS), along with M-Atm, Bill Payments and Verification Services.",
   },
   {
-    question: "How quickly can I start using FrenzoPay for my business?",
+    question: "How quickly can I start using Webwise for my business?",
     answer:
       "You can get started almost instantly after signing up and completing the required onboarding process.",
   },
   {
-    question: "Is FrenzoPay secure for my transactions?",
+    question: "Is Webwise secure for my transactions?",
     answer:
-      "Yes, FrenzoPay uses industry-standard security protocols to ensure all your transactions are safe and protected.",
+      "Yes, Webwise uses industry-standard security protocols to ensure all your transactions are safe and protected.",
   },
   {
     question:
-      "What makes FrenzoPay stand out from other payment solutions in India?",
+      "What makes Webwise stand out from other payment solutions in India?",
     answer:
       "Our focus on fast customer support, tailored solutions, and innovative payment products sets us apart from competitors.",
   },

@@ -1,0 +1,5 @@
+export {default as AboutSection} from "./aboutSection"
+export {default as CompanyIntro} from "./CompanyIntro"
+export {default as MissionVision} from "./MissionVision"
+export {default as Values} from "./Values"
+export {default as ContactUs} from "./ContactUs"

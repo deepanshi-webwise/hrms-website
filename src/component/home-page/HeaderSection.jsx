@@ -17,7 +17,7 @@ const HeaderSection = () => {
 
       <div className="relative z-10 text-center max-w-4xl px-4">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          Let FrenzoPay Solve Payments!
+          Let Webwise Solve Payments!
         </h1>
         <p className="text-lg md:text-xl mb-6">
           We facilitate seamless transactions with a multitude of entrepreneurs

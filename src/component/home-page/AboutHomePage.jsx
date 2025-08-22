@@ -10,7 +10,7 @@ const AboutHomePage = () => {
             A <span className="text-orange-500">Friend</span> Beyond Payments
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Having FrenzoPay as your payments partner allows you to focus on
+            Having Webwise as your payments partner allows you to focus on
             your core business while we handle your digital transactions
             seamlessly. With ready-to-use integrations and plug-ins, enhancing
             your website and enabling smooth transactions has never been easier.
@@ -18,7 +18,7 @@ const AboutHomePage = () => {
             for your customers.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
-            At FrenzoPay, we are committed to continuous innovation, striving to
+            At Webwise, we are committed to continuous innovation, striving to
             provide a seamless and secure digital payment experience. Our goal
             is to empower businesses with efficient and reliable payment
             solutions, making transactions effortless and secure.
@@ -31,7 +31,7 @@ const AboutHomePage = () => {
         <div className="flex justify-center">
           <img
             src={images.FriendBeyond}
-            alt="People using FrenzoPay"
+            alt="People using Webwise"
             className="w-full max-w-md object-contain"
           />
         </div>

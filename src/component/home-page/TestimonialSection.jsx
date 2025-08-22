@@ -9,13 +9,13 @@ const testimonials = [
     name: "Vikas Kumar",
     role: "Sales Director",
     image: images.TestiImage1,
-    text: "Frenzopay's team is extremely responsive and helpful. They understand our business needs and provide tailored solutions that work perfectly for us.",
+    text: "Webwise's team is extremely responsive and helpful. They understand our business needs and provide tailored solutions that work perfectly for us.",
   },
   {
     name: "Ananya Sharma",
     role: "Marketing Head",
     image: images.TestiImage2,
-    text: "We are very satisfied with Frenzopay's service. Their quick support and customized solutions are truly impressive!",
+    text: "We are very satisfied with Webwise's service. Their quick support and customized solutions are truly impressive!",
   },
   {
     name: "Rahul Verma",

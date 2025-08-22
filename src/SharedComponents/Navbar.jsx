@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
+import logo from "../assests/logo.png"
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -24,7 +25,7 @@ const Navbar = () => {
 
   const Submenu = ({ title, items }) => (
     <div className="relative group">
-      <button className="inline-flex items-center py-2 px-4 text-gray-800 hover:text-blue-800">
+      <button className="inline-flex items-center py-2 px-4 text-gray-800 hover:text-blue-800 cursor-pointer">
         {title}
         <ChevronDown className="w-4 h-4 ml-1" />
       </button>
@@ -33,8 +34,8 @@ const Navbar = () => {
           {items.map((item) => (
             <li key={item}>
               <a
-                href="#"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                href="/banking-solutions"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " 
               >
                 {item}
               </a>
@@ -49,7 +50,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <a href="/" className="text-xl font-bold text-blue-800">
-            FrenzoPay
+            <img src={logo} alt="logo" className="w-36 m-auto"/>
           </a>
 
           <div className="hidden md:flex items-center space-x-4">
@@ -60,7 +61,7 @@ const Navbar = () => {
               About
             </a>
             <Submenu title="Banking Solutions" items={bankingSolutions} />
-            <Submenu title="FrenzoVerify" items={frenzoVerify} />
+            {/* <Submenu title="FrenzoVerify" items={frenzoVerify} /> */}
 
             <a href="/contact" className="py-2 px-4 hover:text-blue-800">
               Contact

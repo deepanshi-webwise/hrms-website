@@ -17,7 +17,7 @@ export default function FeaturesSection() {
               Smooth and Responsive Onboarding
             </h3>
             <p className="text-gray-600 text-base">
-              FrenzoPay streamlines merchant onboarding for quick, easy payment
+              Webwise streamlines merchant onboarding for quick, easy payment
               acceptance with minimal hassle.
             </p>
           </div>
@@ -30,7 +30,7 @@ export default function FeaturesSection() {
               Business Enhancing Features
             </h3>
             <p className="text-gray-600 text-base">
-              FrenzoPay’s advanced features enhance merchant engagement, revenue
+              Webwise’s advanced features enhance merchant engagement, revenue
               and performance beyond transactions.
             </p>
           </div>
@@ -43,7 +43,7 @@ export default function FeaturesSection() {
               Customisable and Scalable Technology
             </h3>
             <p className="text-gray-600 text-base">
-              FrenzoPay’s customizable, scalable technology allows merchants to
+              Webwise’s customizable, scalable technology allows merchants to
               adapt to changing needs and grow with their business.
             </p>
           </div>
@@ -56,7 +56,7 @@ export default function FeaturesSection() {
               Best Possible customer support
             </h3>
             <p className="text-gray-600 text-base">
-              FrenzoPay’s customer support guarantees swift assistance for
+              Webwise’s customer support guarantees swift assistance for
               smooth merchant operations.
             </p>
           </div>
