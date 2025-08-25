@@ -20,22 +20,22 @@ const Footer = () => {
         <div>
           <h4 className="font-bold mb-8">Information</h4>
           <ul className="space-y-2 text-sm">
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/"}>Home</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/about"}>About Webwise</Link>
             </li>
-            {/* <li>
+            {/* <li className="hover:text-orange-600">
               <Link to={"/"}>Blogs</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/"}>Frenzo Aware</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/"}>Careers</Link>
             </li> */}
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/contact"}>Contact</Link>
             </li>
           </ul>
@@ -44,22 +44,22 @@ const Footer = () => {
         <div>
           <h4 className="font-bold mb-8">Product</h4>
           <ul className="space-y-2 text-sm">
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/banking-solutions"}>AePS</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/banking-solutions"}>MicroATM</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/banking-solutions"}>Money Transfer</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/banking-solutions"}>Payouts</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/banking-solutions"}>Bill Payment</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/banking-solutions"}>Recharge</Link>
             </li>
           </ul>
@@ -68,22 +68,22 @@ const Footer = () => {
         <div>
           <h4 className="font-bold mb-8">Policies</h4>
           <ul className="space-y-2 text-sm">
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/privacy-and-policy"}>Privacy Policy</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/disclaimer"}>Disclaimer</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/terms-and-condition"}>Terms of Use</Link>
             </li>
-            {/* <li>
+            {/* <li className="hover:text-orange-600">
               <Link to={"/"}>Grievance Redressal</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/"}>Chargeback Guide</Link>
             </li>
-            <li>
+            <li className="hover:text-orange-600">
               <Link to={"/"}>Responsible Disclosure</Link>
             </li> */}
           </ul>
@@ -99,13 +99,18 @@ const Footer = () => {
             <span>
               <Mail className="h-4 w-4" />{" "}
             </span>
-            <span> info@webwisestudio.in</span>
+
+            <a href="mailto:info@webwisestudio.in">
+              <span> info@webwisestudio.in</span>
+            </a>
           </p>
           <p className="text-sm flex items-center gap-2 mt-3">
             <span>
               <Phone className="h-4 w-4" />{" "}
             </span>
-            <span>+91 7683021914</span>
+            <a href="tel:+917683021914">
+              <span>+91 7683021914</span>
+            </a>
           </p>
           <div className="flex gap-3 mt-3">
             <span>
@@ -114,7 +119,10 @@ const Footer = () => {
               </Link>
             </span>
             <span>
-              <Link to={"https://www.instagram.com/webwisestudio_/"} className="text-[#ee2a7b]">
+              <Link
+                to={"https://www.instagram.com/webwisestudio_/"}
+                className="text-[#ee2a7b]"
+              >
                 <Instagram />{" "}
               </Link>
             </span>

@@ -1,6 +1,14 @@
+import { useEffect } from "react";
 import { AboutHomePage, Faq, FeatureSection, FrenzoVerifySection, HeaderSection, PartnerSection, TestimonialSection } from "../../component";
 
 const Home = () => {
+    useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 100,
+      behavior: "smooth",
+    });
+  });
   return (
     <div className="">
       <section>
